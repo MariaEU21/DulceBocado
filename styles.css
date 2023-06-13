@@ -413,6 +413,7 @@ ul li a img:hover {
   }
 }
 
+
 /* imágenes de fondo para cada tarjeta de la seccion ofertas*/
 .offer-card:nth-child(1) .offer-image {
   background-image: url('https://i.pinimg.com/564x/ef/bf/45/efbf450109753480a495029662fcf175.jpg');
@@ -457,7 +458,22 @@ ul li a img:hover {
   background-color: #4CAF50;
   color: white;
 }
-
+.button__cupon {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: lightpink;
+  color: #040404;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.button__cupon:hover {
+  background-color: #4CAF50;
+  color: white;
+}
  
 /* Estilos titulo y parrafo de introduccion de seccion Productos */
 
